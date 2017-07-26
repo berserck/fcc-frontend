@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html {IF CLASSES}class="classes"{/IF}>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  {IF PRIVATE}
+  <meta name="robots" content="noindex">
+  {ELSE}
+  <!-- MIT License -->
+  {/IF}
+
+  <title>{TITLE}</title>
+
+  {STUFF FOR <HEAD>}
+
+  <link rel="stylesheet" href="{CSS RESET CHOICE}">
+  {EXTERNAL CSS}
+  <style>
+  {EDITOR CSS}
+  </style>
+
+  {PREFIX FREE (if enabled)}
+  {MODERNIZR (if enabled)}
+
+</head>
+
+<body>
+
+  {EDITOR HTML}
+
+  {JS Library (if chosen)}
+  {EXTERNAL JS}
+
+  <script>
+    {EDITOR JS}
+    //# sourceURL=pen.js
+  </script>
+
+</body>
+
+</html>
