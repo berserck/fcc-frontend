@@ -1,0 +1,19 @@
+{
+  "name": "fcc-frontend",
+  "version": "1.0.0",
+  "description": "I'm placing here the code I'm writing for the Free code camp https://www.freecodecamp.org Front End Development Certification",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fcc-Frontend"
+  },
+  "author": "Pedro Parracho",
+  "license": "ISC"
+}

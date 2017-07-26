@@ -29,7 +29,9 @@ function rot13(str) { // LBH QVQ VG!
 }
 
 // Change the inputs below to test
-console.log(rot13("SERR PBQR PNZC"));
+//console.log(rot13("SERR PBQR PNZC"));
+
+exports.rot13 = rot13;
 
 // Tests:
 // rot13("SERR PBQR PNZC") should decode to "FREE CODE CAMP"
