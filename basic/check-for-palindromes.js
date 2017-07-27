@@ -12,12 +12,12 @@ function palindrome(str) {
   // Good luck!
   var ori = str.replace(/[^a-z0-9]/ig,'').toLowerCase();
   var rev = ori.split('').reverse().join('');
-  console.log("string is:" + str);
   return rev === ori;
 }
 
-console.log(palindrome("_eye"));
+//console.log(palindrome("_eye"));
 
+exports.palindrome = palindrome;
 // Tests:
 // palindrome("eye") should return a boolean.
 // palindrome("eye") should return true.
