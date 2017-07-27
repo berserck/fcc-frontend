@@ -23,7 +23,10 @@ function mutation(arr) {
   return true;
 }
 
-console.log(mutation(["hello", "hey"]));
+//console.log(mutation(["hello", "hey"]));
+
+
+exports.mutation = mutation;
 
 // Tests:
 // mutation(["hello", "hey"]) should return false.
