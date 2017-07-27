@@ -4,8 +4,9 @@ function reverseString(str) {
   return str.split('').reverse().join('');
 }
 
-console.log(reverseString("hello"));
+//console.log(reverseString("hello"));
 
+exports.reverseString = reverseString;
 // Tests:
 // reverseString("hello") should return a string.
 // reverseString("hello") should become "olleh".
