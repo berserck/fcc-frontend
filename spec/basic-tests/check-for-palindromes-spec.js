@@ -1,4 +1,4 @@
-describe("Check for palindrome", function(){
+describe("Tests for palindrome", function(){
     var checker = require ('../../basic/check-for-palindromes');
 
 

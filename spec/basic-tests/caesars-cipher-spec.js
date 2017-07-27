@@ -1,4 +1,4 @@
-describe( "caesers-cipher", function(){
+describe( "Tests for caesers-cipher", function(){
 
     var cipher = require ('../../basic/caesars-cipher');
 
