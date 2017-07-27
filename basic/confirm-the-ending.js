@@ -10,8 +10,9 @@ function confirmEnding(str, target) {
   return sub === target;
 }
 
-console.log(confirmEnding("Bastian", "n"));
+//console.log(confirmEnding("Bastian", "n"));
 
+exports.confirmEnding = confirmEnding;
 // Tests:
 // confirmEnding("Bastian", "n") should return true.
 // confirmEnding("Connor", "n") should return false.
