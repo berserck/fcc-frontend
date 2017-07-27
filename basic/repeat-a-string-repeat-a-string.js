@@ -8,8 +8,9 @@ function repeatStringNumTimes(str, num) {
   return str.repeat(num);
 }
 
-console.log(repeatStringNumTimes("abc", 3));
+//console.log(repeatStringNumTimes("abc", 3));
 
+exports.repeatStringNumTimes = repeatStringNumTimes;
 
 // Tests:
 // repeatStringNumTimes("*", 3) should return "***".
