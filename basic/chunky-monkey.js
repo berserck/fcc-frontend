@@ -15,13 +15,14 @@ function chunkArrayInGroups(arr, size) {
   var res = [];
   while( arr.length > size){
     res.push(splitArray(arr, size));
-    console.log("inside while:",res, arr);
   }
   res.push(arr);
   return res;
 }
 
-console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
+//console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
+
+exports.chunkArrayInGroups = chunkArrayInGroups;
 
 // Tests:
 // chunkArrayInGroups(["a", "b", "c", "d"], 2) should return [["a", "b"], ["c", "d"]].
