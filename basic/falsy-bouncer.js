@@ -11,7 +11,9 @@ function bouncer(arr) {
   return res;
 }
 
-console.log(bouncer([7, "ate", "", false, 9]));
+//console.log(bouncer([7, "ate", "", false, 9]));
+
+exports.bouncer = bouncer;
 
 // Tests:
 // bouncer([7, "ate", "", false, 9]) should return [7, "ate", 9].
