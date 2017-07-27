@@ -15,8 +15,10 @@ function findLongestWord(str) {
   return maxLenght;
 }
 
-console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+//console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
 
+
+exports.findLongestWord = findLongestWord;
 // Tests:
 // findLongestWord("The quick brown fox jumped over the lazy dog") should return a number.
 // findLongestWord("The quick brown fox jumped over the lazy dog") should return 6.
