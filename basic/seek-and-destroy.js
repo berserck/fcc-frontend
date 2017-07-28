@@ -21,7 +21,9 @@ function destroyer() {
   return array;
 }
 
-console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
+//console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
+
+exports.destroyer = destroyer;
 
 // Tests:
 // destroyer([1, 2, 3, 1, 2, 3], 2, 3) should return [1, 1].
