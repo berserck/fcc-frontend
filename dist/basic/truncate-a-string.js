@@ -1,3 +1,5 @@
+'use strict';
+
 // Truncate a string (first argument) if it is longer than the given maximum
 // string length (second argument). Return the truncated string with a ... ending.
 
@@ -10,13 +12,13 @@
 function truncateString(str, num) {
   // Clear out that junk in your trunk
   var len = str.length;
-  if(len > num){
-    if(num > 4) {
-      slice = num-3;
+  if (len > num) {
+    if (num > 4) {
+      slice = num - 3;
     } else {
       slice = num;
     }
-    str = str.slice(0,slice);
+    str = str.slice(0, slice);
     str += '...';
   }
   return str;
@@ -33,3 +35,4 @@ exports.truncateString = truncateString;
 // truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length + 2) should return "A-tisket a-tasket A green and yellow basket".
 // truncateString("A-", 1) should return "A...".
 // truncateString("Absolutely Longer", 2) should return "Ab...".
+//# sourceMappingURL=truncate-a-string.js.map
