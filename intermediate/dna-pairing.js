@@ -22,7 +22,9 @@ function pairElement(str) {
   return result;
 }
 
-console.log(pairElement("GCG"));
+//console.log(pairElement("GCG"));
+
+exports.pairElement = pairElement
 
 // Tests:
 // pairElement("ATCGA") should return [["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]].

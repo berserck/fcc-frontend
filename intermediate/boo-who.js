@@ -6,7 +6,9 @@ function booWho(bool) {
   return (typeof bool === "boolean");
 }
 
-booWho(null);
+//booWho(null);
+
+exports.booWho = booWho;
 
 // Tests:
 // booWho(true) should return true.

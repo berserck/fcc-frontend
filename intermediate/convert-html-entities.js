@@ -9,8 +9,9 @@ function convertHTML(str) {
   return str;
 }
 
-console.log(convertHTML("Hamburgers < Pizza < Tacos"));
+//console.log(convertHTML("Hamburgers < Pizza < Tacos"));
 
+exports.convertHTML = convertHTML;
 // Tests:
 // convertHTML("Dolce & Gabbana") should return Dolce &​amp; Gabbana.
 // convertHTML("Hamburgers < Pizza < Tacos") should return Hamburgers &​lt; Pizza &​lt; Tacos.
