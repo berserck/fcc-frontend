@@ -64,3 +64,4 @@ typings/
 
 **/jasmine_examples/
 .idea/
+/dist/
