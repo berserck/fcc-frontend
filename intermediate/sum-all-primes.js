@@ -33,8 +33,9 @@ function sumPrimes(num){
   return res;
 }
 
-console.log(sumPrimes(10));
+//console.log(sumPrimes(10));
 
+exports.sumPrimes = sumPrimes;
 // Tests:
 // sumPrimes(10) should return a number.
 // sumPrimes(10) should return 17.

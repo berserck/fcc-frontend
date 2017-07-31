@@ -34,8 +34,8 @@ function sumFibs(num) {
   return sum;
 }
 
-console.log(sumFibs(4));
-
+//console.log(sumFibs(4));
+exports.sumFibs = sumFibs;
 // Tests:
 // sumFibs(1) should return a number.
 // sumFibs(1000) should return 1785.

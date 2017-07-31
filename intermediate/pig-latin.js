@@ -16,6 +16,7 @@ function translatePigLatin(str) {
 
 translatePigLatin("consonant");
 
+exports.translatePigLatin = translatePigLatin;
 // Tests:
 // translatePigLatin("california") should return "aliforniacay".
 // translatePigLatin("paragraphs") should return "aragraphspay".

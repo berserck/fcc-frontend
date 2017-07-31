@@ -20,8 +20,9 @@ function convertToRoman(num) {
  return res;
 }
 
-console.log(convertToRoman(798)==="DCCXCVIII");
+//console.log(convertToRoman(798)==="DCCXCVIII");
 
+exports.convertToRoman = convertToRoman;
 // Tests:
 // convertToRoman(2) should return "II".
 // convertToRoman(3) should return "III".

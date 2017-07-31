@@ -36,8 +36,9 @@ function myReplace(str, before, after) {
   return res.join(" ");
 }
 
-console.log(myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped"));
+//console.log(myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped"));
 
+exports.myReplace = myReplace;
 // Tests:
 // myReplace("Let us go to the store", "store", "mall") should return "Let us go to the mall".
 // myReplace("He is Sleeping on the couch", "Sleeping", "sitting") should return "He is Sitting on the couch".

@@ -12,8 +12,9 @@ function fearNotLetter(str) {
   return undefined;
 }
 
-console.log(fearNotLetter("abce"));
+//console.log(fearNotLetter("abce"));
 
+exports.fearNotLetter = fearNotLetter;
 // Tests:
 // fearNotLetter("abce") should return "d".
 // fearNotLetter("abcdefghjklmno") should return "i".

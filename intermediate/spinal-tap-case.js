@@ -13,8 +13,8 @@ function spinalCase(str) {
   return result;
 }
 
-console.log(spinalCase('thisIsSpinalTap'));
-
+//console.log(spinalCase('thisIsSpinalTap'));
+exports.spinalCase = spinalCase;
 // Tests:
 // spinalCase("This Is Spinal Tap") should return "this-is-spinal-tap".
 // spinalCase("thisIsSpinalTap") should return "this-is-spinal-tap".

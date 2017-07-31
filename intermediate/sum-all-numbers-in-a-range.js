@@ -11,8 +11,9 @@ function sumAll(arr) {
   return sum;
 }
 
-console.log(sumAll([1, 4]));
+//console.log(sumAll([1, 4]));
 
+exports.sumAll = sumAll;
 // Tests:
 // sumAll([1, 4]) should return a number.
 // sumAll([1, 4]) should return 10.
