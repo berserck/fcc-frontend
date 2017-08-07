@@ -7,7 +7,6 @@
 
 function dropElements(arr, func) {
     while(!func(arr[0]) && arr.length > 0){
-        console.log(arr);
         arr.shift();
     }
     return arr;
